@@ -6,6 +6,7 @@ using AngleSharp;
 using AngleSharp.Dom;
 using AngleSharp.Parser.Html;
 
+
 using MVAXml2Subs.Model;
 
 namespace MVAXml2Subs.Parser
@@ -16,7 +17,7 @@ namespace MVAXml2Subs.Parser
 		{
 			var parser = new HtmlParser();
 			var document = parser.Parse(xml);
-
+			
 			IHtmlCollection<IElement> elements = document.QuerySelectorAll("body div[region=\"subtitleArea\"] > p");
 
 			List<SubtitleModel> result = new List<SubtitleModel>();

@@ -15,6 +15,7 @@ namespace MVAXml2Subs.Tests
 		public void Parse()
 		{
 			const string xml = @"<tt xml:lang=""en"" xmlns=""http://www.w3.org/ns/ttml"" xmlns:ttm=""http://www.w3.org/ns/ttml#metadata"" xmlns:tts=""http://www.w3.org/ns/ttml#styling"" xmlns:ttp=""http://www.w3.org/ns/ttml#parameter"">
+
   <body>
     <div region=""subtitleArea"">
       <p ttm:role=""caption"" xml:id=""subtitle1"" end=""00:00:04:00"" begin=""00:00:00:20""> [Music] </p>

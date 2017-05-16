@@ -14,4 +14,10 @@
     <ProjectReference Include="..\MVAXml2Subs\MVAXml2Subs.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
